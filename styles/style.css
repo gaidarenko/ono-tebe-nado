@@ -14,8 +14,8 @@ body {
 
 .header__logo {
   display: block;
-  width: 136px;   /* 148 */
-  height: 105px;  /* 105 */
+  width: 136px;
+  height: 105px;
 }
 
 .header__address {
@@ -90,7 +90,7 @@ body {
 
 .aligned-text_center {
   display: block;
-  text-align: center;  
+  text-align: center;
   margin-top: 12px;
   margin-right: 30px;
 }
@@ -98,7 +98,7 @@ body {
 .aligned-text_right {
   margin-top: 6px;
   display: block;
-  text-align: right;    
+  text-align: right;
 }
 
 .no-letter-spacing {
@@ -135,7 +135,7 @@ body {
 }
 
 .lots {
-  margin: 179px 24px 0 24px; 
+  margin: 179px 24px 0 24px;
 }
 
 .lots__heading {
@@ -218,8 +218,6 @@ body {
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-/*  grid-template-columns: 1fr 2fr; */
-/*  grid-template-rows: 1fr 1fr; */
   align-items: center;
   margin: 184px 24px 0 24px;
   column-gap: 26px;
