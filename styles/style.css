@@ -131,7 +131,7 @@ body {
   text-transform: uppercase;
   background-color: transparent;
   border: 1px solid #fff;
-  padding: 10px 20px;
+  padding: 12px 32px;
 }
 
 .lots {
@@ -217,11 +217,12 @@ body {
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 334px 1fr;
+/*  grid-template-columns: 1fr 2fr; */
 /*  grid-template-rows: 1fr 1fr; */
   align-items: center;
   margin: 184px 24px 0 24px;
-/*  gap: 26px; */
+  column-gap: 26px;
 }
 
 .about__logo {
@@ -245,18 +246,20 @@ body {
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
+  padding-top: 6px;
 }
 
 .about__text {
   font-size: 20px;
   line-height: 24px;
-  padding-bottom: 30px;
+  padding-top: 6px;
+  padding-bottom: 20.5px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 151px 50px 88px 50px;
+  padding: 158px 50px 88px 50px;
 }
 
 .footer__menu-list {
