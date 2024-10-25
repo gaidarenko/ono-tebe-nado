@@ -45,7 +45,8 @@ body {
 
 .address {
   font-style: normal;
-  padding-right: 40px;
+  padding-right: 37px;
+  line-height: 24px;
   text-underline-offset: 4px;
 }
 
