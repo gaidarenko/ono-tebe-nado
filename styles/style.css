@@ -37,6 +37,7 @@
   column-gap: 32px;
   list-style-type: circle;
   text-underline-offset: 4px;
+  padding-top: 3px;
 }
 
 .header__links-list-item_no-bullit {
@@ -218,7 +219,6 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  align-items: center;
   margin: 184px 24px 0 24px;
   column-gap: 26px;
 }
@@ -233,10 +233,10 @@
 }
 
 .about__logo-image {
-    display: block;
-    width: 148px;
-    height: 114px;
-    margin: auto;
+  display: block;
+  width: 148px;
+  height: 114px;
+  margin: auto;
 }
 
 .about__title {
@@ -244,20 +244,21 @@
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
-  padding-top: 6px;
+  padding-top: 101px;
+  padding-bottom: 92px;
 }
 
 .about__text {
   font-size: 20px;
   line-height: 24px;
   padding-top: 6px;
-  padding-bottom: 20.5px;
+  padding-bottom: 19px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 158px 50px 83px 50px;
+  padding: 162px 50px 83px 50px;
 }
 
 .footer__menu-list {
